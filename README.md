@@ -73,5 +73,5 @@ By addressing these obstacles and applying a deep understanding of both technica
 - 🔹 LLM : Gemini 2
 
 ## 👥 Team
-- **Saumya Sharma** - [GitHub](quitsune) | [LinkedIn](https://www.linkedin.com/in/saumya-sharma-4b9511194/)
+- **Saumya Sharma** - [GitHub - quitsune](quitsune) | [LinkedIn](https://www.linkedin.com/in/saumya-sharma-4b9511194/)
 - **Immaculate Maria Fernando** - [GitHub](#) | [LinkedIn](#)
