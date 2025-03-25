@@ -16,9 +16,8 @@
 ## 🎯 Introduction
 A brief overview of your project and its purpose. Mention which problem statement are your attempting to solve. Keep it concise and engaging.
 
-## 🎥 Demo
-🔗 [Live Demo](#) (if applicable)  
-📹 [Video Demo](#) (if applicable)  
+## 🎥 Demo 
+📹 [Video Demo] Check the repo for the demo videos.
 🖼️ Screenshots:
 
 ![Screenshot 1](link-to-image)
@@ -51,8 +50,8 @@ Describe the major technical or non-technical challenges your team encountered.
 4. Open your browser to the URL  http://localhost:8501).
 
 ## 🏗️ Tech Stack
-- 🔹 Frontend: React / Vue / Angular
-- 🔹 Backend: Node.js / FastAPI / Django
+- 🔹 Frontend: Streamlit
+- 🔹 Backend: Python
 - 🔹 Database: PostgreSQL / Firebase
 - 🔹 Other: OpenAI API / Twilio / Stripe
 
