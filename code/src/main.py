@@ -3,7 +3,7 @@ import extract_msg
 from google import genai
 
 # 1. Retrieve your Generative AI API key (replace with a secure method in production).
-my_api_key = "AIzaSyDNc18Txt8Mv6Et6DiFi9ecoBwhUfJELkQ"
+my_api_key = "xx"
 
 
 client = genai.Client(api_key=my_api_key)
