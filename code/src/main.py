@@ -24,7 +24,7 @@ except RuntimeError:
 
 # 1. Retrieve your Generative AI API key (replace with a secure method in production).
 #    You can store the API key as an environment variable or in a secrets manager.
-my_api_key = "AIzaSyDNc18Txt8Mv6Et6DiFi9ecoBwhUfJELkQ"
+my_api_key = "xx"
 
 # Initialize the GenAI client
 client = genai.Client(api_key=my_api_key)
