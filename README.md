@@ -42,12 +42,13 @@ Describe the major technical or non-technical challenges your team encountered.
    ```
 2. Install dependencies  
    ```sh
-   npm install  # or pip install -r requirements.txt (for Python)
+   pip install streamlit extract_msg google-genai asyncio os
    ```
 3. Run the project  
    ```sh
-   npm start  # or python app.py
+   streamlit run main.py
    ```
+4. Open your browser to the URL  http://localhost:8501).
 
 ## 🏗️ Tech Stack
 - 🔹 Frontend: React / Vue / Angular
