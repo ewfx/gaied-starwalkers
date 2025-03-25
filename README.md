@@ -26,29 +26,29 @@ Our motivation stemmed from observing how front-office and operations teams grap
 ## ⚙️ What It Does
 Automated Classification: The system reads and interprets .msg files, extracting both subject and body to determine the appropriate request type.
 
-Bulk Processing: It supports both single-email uploads and batch operations for entire directories, significantly cutting down on manual sorting overhead.
+1. Bulk Processing: It supports both single-email uploads and batch operations for entire directories, significantly cutting down on manual sorting overhead.
 
-Generative AI Integration: Leveraging state-of-the-art AI models (via Google GenAI), our tool refines its categorization by analyzing linguistic cues and domain-specific keywords.
+2. Generative AI Integration: Leveraging state-of-the-art AI models (via Google GenAI), our tool refines its categorization by analyzing linguistic cues and domain-specific keywords.
 
-Exportable and Searchable Insights: Results are stored in structured formats (CSV), facilitating further analytics and reporting.
+3. Exportable and Searchable Insights: Results are stored in structured formats (CSV), facilitating further analytics and reporting.
 
 ## 🛠️ How We Built It
-Python & Streamlit: We chose Streamlit for rapid UI development and a clean user experience. Python’s simplicity allows us to integrate multiple libraries without sacrificing readability.
+1. Python & Streamlit: We chose Streamlit for rapid UI development and a clean user experience. Python’s simplicity allows us to integrate multiple libraries without sacrificing readability.
 
-Extract_msg: This library handled Outlook .msg parsing, ensuring our solution can read metadata (subject, body, attachments) in detail.
+2. Extract_msg: This library handled Outlook .msg parsing, ensuring our solution can read metadata (subject, body, attachments) in detail.
 
-Google GenAI: We used the google.genai client for classification tasks, providing robust language understanding. Its advanced NLP capabilities help us dissect complex email texts.
+3. Google GenAI: We used the google.genai client for classification tasks, providing robust language understanding. Its advanced NLP capabilities help us dissect complex email texts.
 
-AsyncIO & Concurrency: To address potential threading or event-loop conflicts, we incorporated asyncio logic, ensuring stable concurrent calls to the AI APIs.
+4. AsyncIO & Concurrency: To address potential threading or event-loop conflicts, we incorporated asyncio logic, ensuring stable concurrent calls to the AI APIs.
 
 ## 🚧 Challenges We Faced
-Event Loop Conflicts: Integrating Google GenAI with Streamlit’s synchronous environment required careful handling of asyncio. We overcame runtime errors by initializing custom loops where necessary.
+1. Event Loop Conflicts: Integrating Google GenAI with Streamlit’s synchronous environment required careful handling of asyncio. We overcame runtime errors by initializing custom loops where necessary.
 
-Data Extraction Nuances: Extracting meaningful text from .msg files (especially those with HTML bodies, special characters, or attachments) proved more complex than expected, mandating thorough testing.
+2. Data Extraction Nuances: Extracting meaningful text from .msg files (especially those with HTML bodies, special characters, or attachments) proved more complex than expected, mandating thorough testing.
 
-Scalability: Handling batch classification across thousands of messages in one go required us to optimize I/O operations and ensure the AI calls remained efficient.
+3. Scalability: Handling batch classification across thousands of messages in one go required us to optimize I/O operations and ensure the AI calls remained efficient.
 
-Domain Terminology: Banking and loan-related emails often contain intricate jargon—our system had to be carefully fine-tuned to recognize subtle differences (e.g., distinguishing “Reallocation Fees” from “Amendment Fees”).
+4. Domain Terminology: Banking and loan-related emails often contain intricate jargon—our system had to be carefully fine-tuned to recognize subtle differences (e.g., distinguishing “Reallocation Fees” from “Amendment Fees”).
 
 By addressing these obstacles and applying a deep understanding of both technical and domain-specific details, our solution streamlines email classification for finance teams, bringing them closer to fully automated operational processes.
 
