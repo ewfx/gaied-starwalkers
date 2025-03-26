@@ -19,6 +19,8 @@ We developed a solution to streamline email classification within a banking or f
 ## 🎥 Demo 
 📹 [Video Demo] Check the repo for the demo videos.
 🖼️ Screenshots: ![Screenshot 1](link-to-image)
+![image](https://github.com/user-attachments/assets/e96cd31b-ebf9-407f-9f1d-24861094f620)
+
 
 ## 💡 Inspiration
 Our motivation stemmed from observing how front-office and operations teams grapple with ever-increasing email traffic—ranging from routine fee notifications to intricate loan amendments. Recognizing that these requests often require consistent, rule-based decisions, we saw a need for a robust, data-driven approach that could identify context, categorize emails, and serve recommended actions. We took inspiration from enterprise-scale problems like loan syndication and capital markets where even a single classification mistake can have costly repercussions.
