@@ -18,7 +18,8 @@ We developed a solution to streamline email classification within a banking or f
 
 ## 🎥 Demo 
 📹 [Video Demo] Check the repo for the demo videos.
-🖼️ Screenshots: ![Screenshot 1](link-to-image)
+
+🖼️ Screenshots:
 ![image](https://github.com/user-attachments/assets/e96cd31b-ebf9-407f-9f1d-24861094f620)
 
 
